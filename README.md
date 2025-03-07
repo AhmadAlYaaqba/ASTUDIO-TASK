@@ -29,6 +29,9 @@ This project demonstrates a simple application with two main pages in addition t
 
 All data is retrieved from [dummyjson.com](https://dummyjson.com/). The app is built using **React**, **TypeScript**, and **Next.js**.
 
+A Line demo can be found : 
+[astudio-task-iota.vercel.app](https://astudio-task-iota.vercel.app)
+
 ---
 
 ## Technologies Used
