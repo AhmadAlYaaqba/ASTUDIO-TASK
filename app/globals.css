@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Neutra Text";
+  src: url("/fonts/Neutra-Text-Book.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neutra Text";
+  src: url("/fonts/Neutra-Text-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Neutra Text", sans-serif;
+  background-color: #ebebeb;
+  background-image: radial-gradient(
+      circle at center center,
+      rgba(192, 227, 229, 0.2),
+      rgba(235, 235, 235, 0.2)
+    ),
+    repeating-radial-gradient(
+      circle at center center,
+      rgba(192, 227, 229, 0.2),
+      rgba(192, 227, 229, 0.2) 10px,
+      transparent 20px,
+      transparent 10px
+    );
+
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  color: #322625;
+  min-height: 100vh;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
